@@ -1,0 +1,19 @@
+{
+    "question_template": "Question: {}\nBased on the question, identify ONLY the primary, physical objects or subjects mentioned. Do not include adjectives, locations, or states.\nPlease respond using <Reson> and <target> tags.\nA 'target' must be a simple, concrete noun (e.g., 'car', 'person', 'table').\nFor multiple distinct subjects, separate them with a comma (e.g., 'cat, dog').",
+    "question_list": [
+      "Is there a snowboard in the image?",
+      "Is there a car in the image?",
+      "Is there a sandwich in the image?",
+      "Is there an umbrella in the image?",
+      "Is there a potted plant in the image?",
+      "Is there a toothbrush in the image?"
+    ],
+    "response_list": [
+      "<Reson>The question asks about the existence of a snowboard in the image. The primary physical subject is the snowboard.</Reson><target>snowboard</target>",
+      "<Reson>The question asks about the existence of a car in the image. The primary physical subject is the car.</Reson><target>car</target>",
+      "<Reson>The question asks about the existence of a sandwich in the image. The primary physical subject is the sandwich.</Reson><target>sandwich</target>",
+      "<Reson>The question asks about the existence of an umbrella in the image. The primary physical subject is the umbrella.</Reson><target>umbrella</target>",
+      "<Reson>The question asks about the existence of a potted plant in the image. The primary physical subject is the potted plant.</Reson><target>potted plant</target>",
+      "<Reson>The question asks about the existence of a toothbrush in the image. The primary physical subject is the toothbrush.</Reson><target>toothbrush</target>"
+    ]
+  }

@@ -1,0 +1,21 @@
+{
+    "question_template": "Question: {}\nBased on the question, identify the primary physical subjects. Follow these rules with NO exceptions:\n\n**Rule A (Counting Questions):** If the question starts with \"How many\", your ONLY job is to find the noun being counted. The <target> MUST be the word \"all\" followed by that noun in plural form (e.g., \"all cars\", \"all people\"). You MUST ignore every other detail in the question, such as locations ('in the boat') or descriptions.\n\n**Rule B (Other Questions):** For all other questions, identify the simple, concrete noun(s) mentioned (e.g., 'car', 'person', 'table'). Do not include adjectives, locations, or states.",
+    "question_list": [
+        "What is the color of the boy's bag?",
+        "Is the yellow car on the left or right side of the white car?",
+        "Tell me the number on the black board above the dog.",
+        "Is the girl with pink hair on the left or right side of the man with backpack?",
+        "What kind of animal is on the red sign?",
+        "How many cars in the image?",
+        "How many people are there in the boat?"
+    ],
+    "response_list": [
+        "<Reson>This question does not start with 'How many'. Rule B applies. The primary subject is the boy's bag.</Reson><target>boy's bag</target>",
+        "<Reson>This question does not start with 'How many'. Rule B applies. The primary subjects are the yellow car and the white car.</Reson><target>yellow car, white car</target>",
+        "<Reson>This question does not start with 'How many'. Rule B applies. The primary subjects are the board and the dog.</Reson><target>black board, dog</target>",
+        "<Reson>This question does not start with 'How many'. Rule B applies. The core subjects are the girl and the man.</Reson><target>girl, man</target>",
+        "<Reson>This question does not start with 'How many'. Rule B applies. The primary subject is the red sign.</Reson><target>red sign</target>",
+        "<Reson>The question starts with 'How many'. Rule A applies. The object noun is 'cars'. The target must be 'all cars'.</Reson><target>all cars</target>",
+        "<Reson>The question starts with 'How many'. Rule A applies. The object noun is 'people'. The location 'in the boat' MUST be ignored. The target must be 'all people'.</Reson><target>all people</target>"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "question_template": "Question: {}\nBased on the question, identify ONLY the primary, physical objects or subjects mentioned. Do not include adjectives, locations, or states.\nPlease respond using <Reson> and <target> tags.\nA 'target' must be a simple, concrete noun (e.g., 'car', 'person', 'table').\nFor multiple distinct subjects, separate them with a comma (e.g., 'cat, dog').",
+    "question_list": [
+        "What is the brand name on the laptop?",
+        "How many people are wearing hats in the image?",
+        "Is the cat on the left or right side of the wooden chair?",
+        "What kind of food is on the white plate?",
+        "What is the man in the blue shirt holding in his hand?",
+        "What time is displayed on the clock on the wall?"
+    ],
+    "response_list": [
+        "<Reson>The question asks about a brand name found on a laptop. The core physical subject is the laptop.</Reson><target>laptop</target>",
+        "<Reson>The question asks to count people who are wearing hats. The primary subjects are people and hats.</Reson><target>people, hats</target>",
+        "<Reson>The question asks about the position of a cat relative to a wooden chair. The core physical subjects are the cat and the chair.</Reson><target>cat, wooden chair</target>",
+        "<Reson>The question asks about the type of food on a plate. The primary physical subjects are the food and the plate.</Reson><target>food, white plate</target>",
+        "<Reson>The question asks about an object held by a man. The core physical subjects are the man and the object he is holding.</Reson><target>man, object</target>",
+        "<Reson>The question asks for the time displayed on a clock. The core physical subject is the clock.</Reson><target>clock</target>"
+    ]
+}

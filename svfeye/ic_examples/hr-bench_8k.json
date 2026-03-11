@@ -1,0 +1,19 @@
+{
+    "question_template": "Question: {}\nBased on the question, identify ONLY the primary, physical objects or subjects mentioned. Do not include adjectives, locations, or states.\nPlease respond using <Reson> and <target> tags.\nA 'target' must be a simple, concrete noun (e.g., 'car', 'person', 'table').\nFor multiple distinct subjects, separate them with a comma (e.g., 'cat, dog').",
+    "question_list": [
+        "What is the color of the boy's bag?",
+        "Is the yellow car on the left or right side of the white car?",
+        "Tell me the number on the black board above the dog.",
+        "Is the girl with pink hair on the left or right side of the man with backpack?",
+        "What kind of animal is on the red sign?",
+        "How many cars in the image?"
+    ],
+    "response_list": [
+        "<Reson>The question asks about a boy's bag. The primary physical subject is the boy's bag.</Reson><target>boy's bag</target>",
+        "<Reson>The question is about the relationship between two cars, The primary physical subject is car.</Reson><target>yellow car, white car</target>",
+        "<Reson>The question asks about a black board and a dog, ignoring their relative position. The core subjects are the board and the dog.</Reson><target>black board, dog</target>",
+        "<Reson>The question is about a girl and a man. Their attributes (pink hair, backpack) are secondary. The core subjects are the girl and the man.</Reson><target>girl, man</target>",
+        "<Reson>The question asks about something on a sign. The core subject to locate is the sign.</Reson><target>red sign</target>",
+        "<Reson>The question asks to count all cars. The core subject is cars.</Reson><target>all cars</target>"
+    ]
+}

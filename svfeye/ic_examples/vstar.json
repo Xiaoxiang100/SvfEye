@@ -1,0 +1,19 @@
+{
+    "question_template": "Question: {}\nBased on the question, identify ONLY the primary, physical objects or subjects mentioned. Do not include adjectives, locations, or states.\nPlease respond using <Reson> and <target> tags.\nA 'target' must be a simple, concrete noun (e.g., 'car', 'person', 'table').\nFor multiple distinct subjects, separate them with a comma (e.g., 'cat, dog').",
+    "question_list": [
+        "What is the color of the boy's bag?",
+        "Is the yellow car on the left or right side of the white car?",
+        "Tell me the number on the black board.",
+        "Is the girl with pink hair on the left or right side of the man with backpack?",
+        "What kind of animal is on the red sign?",
+        "From the information on that advertising board, what is the type of this shop?"
+    ],
+    "response_list": [
+        "<Reson>The question asks about the color of a boy's bag. To answer this, I need to locate the boy with the bag to identify its color.</Reson><target>boy with a bag</target>",
+        "<Reson>The question asks about the relative position of a yellow car and a white car. To answer this, I need to know the locations of both the yellow car and the white car.</Reson><target>yellow car, white car</target>",
+        "<Reson>The question asks for the number on a black board. To answer this, I need to locate the black board and read the number on it.</Reson><target>black board</target>",
+        "<Reson>The question asks about the relative position of a girl with pink hair and a man with a backpack. To answer this, I need to know the locations of both the girl with pink hair and the man with the backpack.</Reson><target>girl with pink hair, man with backpack</target>",
+        "<Reson>The question asks about the kind of animal on a red sign. To answer this, I need to locate the red sign and identify the animal depicted on it.</Reson><target>red sign</target>",
+        "<Reson>The question asks about the type of shop based on information on an advertising board. To answer this, I need to locate the advertising board and interpret the information on it.</Reson><target>advertising board</target>"
+    ]
+}
