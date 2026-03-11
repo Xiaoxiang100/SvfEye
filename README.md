@@ -1,4 +1,4 @@
-# SvfEye: Knowing When and Where to Look for Adaptive Visual Reasoning
+# SvfEye: A Semantic–Visual Fusion Framework with Multi-Scale Visual Context for Multimodal Reasoning
 
 [![Paper](https://img.shields.io/badge/paper-arXiv-red.svg)](https://arxiv.org/abs/YOUR_PAPER_ID)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -129,7 +129,7 @@ If you use SvfEye in your research, please cite our paper:
 
 ```bibtex
 @article{svfeye2024,
-  title={SvfEye: Knowing When and Where to Look for Adaptive Visual Reasoning},
+  title={SvfEye: A Semantic–Visual Fusion Framework with Multi-Scale Visual Context for Multimodal Reasoning},
   author={},
   journal={arXiv preprint arXiv:},
   year={2024}
